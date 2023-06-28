@@ -1,24 +1,24 @@
 {
-	"name": "@fzf404/eslint-config",
-	"version": "0.0.3",
-	"description": "Eslint config by fzf404",
-	"main": "config.js",
-	"license": "MIT",
-	"scripts": {
-		"lint": "eslint --cache --ignore-path .gitignore .",
-		"format": "prettier --cache --ignore-path .gitignore --write ."
-	},
-	"prettier": "@fzf404/prettier-config",
-	"peerDependencies": {
-		"eslint": "^8.0.0"
-	},
-	"dependencies": {
-		"eslint-config-prettier": "^8.8.0",
-		"eslint-plugin-prettier": "^4.2.1"
-	},
-	"devDependencies": {
-		"@fzf404/prettier-config": "^0.3.0",
-		"eslint": "^8.43.0",
-		"prettier": "^2.8.8"
-	}
+  "name": "@fzf404/eslint-config",
+  "version": "0.0.3",
+  "description": "Eslint config by fzf404",
+  "main": "config.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --cache --ignore-path .gitignore .",
+    "format": "prettier --cache --ignore-path .gitignore --write ."
+  },
+  "prettier": "@fzf404/prettier-config",
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "devDependencies": {
+    "@fzf404/prettier-config": "^0.3.0",
+    "eslint": "^8.43.0",
+    "prettier": "^2.8.8"
+  }
 }
