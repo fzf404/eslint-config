@@ -2,8 +2,8 @@
   "name": "@fzf404/eslint-config",
   "version": "0.0.4",
   "description": "Eslint config by fzf404",
-  "main": "config.js",
   "license": "MIT",
+  "main": "config.js",
   "scripts": {
     "lint": "eslint --cache .",
     "format": "prettier --cache --write ."
