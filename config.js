@@ -1,3 +1,5 @@
+const { readGitignoreFiles } = require('eslint-gitignore')
+
 module.exports = {
   env: {
     es6: true,
@@ -6,6 +8,7 @@ module.exports = {
   },
   plugins: ['eslint-plugin-prettier'],
   extends: ['eslint:recommended', 'eslint-config-prettier'],
+  ignorePatterns: readGitignoreFiles({ cwd: __dirname }),
   rules: {
     'prettier/prettier': 'error',
   },
