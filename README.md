@@ -1,26 +1,27 @@
 # @fzf404/eslint-config
 
-[![npm](https://img.shields.io/npm/v/@fzf404/eslint-config?color=orange)](https://npmjs.com/package/@fzf404/eslint-config)
-[![star](https://img.shields.io/github/stars/fzf404/eslint-config?color=blue)](https://github.com/fzf404/eslint-config)
-[![license](https://img.shields.io/npm/l/@fzf404/eslint-config?color=green)](https://github.com/fzf404/eslint-config/LICENSE)
-[![language](https://img.shields.io/badge/language-简体中文-purple)](https://github.com/fzf404/eslint-config/blob/main/README.zh-CN.md)
+[![npm](https://img.shields.io/npm/v/@fzf404/eslint-config?color=f03e3e)](https://npmjs.com/package/@fzf404/eslint-config)
+[![star](https://img.shields.io/github/stars/fzf404/eslint-config?color=1c7ed6)](https://github.com/fzf404/eslint-config)
+[![license](https://img.shields.io/npm/l/@fzf404/eslint-config?color=37b24d)](https://github.com/fzf404/eslint-config/blob/main/LICENSE)
+[![language](https://img.shields.io/badge/language-简体中文-f76707)](https://github.com/fzf404/eslint-config)
 
-My personal ESLint config
+My personal ESLint config ( 我的 ESLint 配置 )
 
-## Features
+## Features ( 特性 )
 
-- Support ESM module
-- Compatible with Prettier
+- Support ESM module ( 支持 ESM 模块 )
+- Compatible with Prettier ( 兼容 Prettier )
+- Ignore `.gitignore` included files ( 忽略 `.gitignore` 包含的文件 )
 
-## Install
+## Install ( 安装 )
 
 ```bash
 npm i -D eslint @fzf404/eslint-config
 ```
 
-## Usage
+## Usage ( 使用 )
 
-Edit `package.json` or `.eslintrc.json`
+Edit `package.json` or `.eslintrc.json` ( 编辑 `package.json` 或 `.eslintrc.json`)
 
 ```jsonc
 // package.json
