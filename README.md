@@ -14,12 +14,6 @@ My personal ESLint config ( 我的 ESLint 配置 )
 - Support Vue and TypeScirpt ( 支持 Vue 和 TypeScript )
 - Ignore `.gitignore` included files ( 忽略 `.gitignore` 包含的文件 )
 
-## Install ( 安装 )
-
-```bash
-npm i -D eslint @fzf404/eslint-config
-```
-
 ## Usage ( 使用 )
 
 1. Install `eslint` and `@fzf404/eslint-config` ( 安装 `eslint` 和 `@fzf404/eslint-config` )
@@ -33,9 +27,9 @@ npm i -D eslint @fzf404/eslint-config
 ```jsonc
 // package.json
 "eslintConfig": {
-		"extends": [
-			"@fzf404/eslint-config"
-		]
+  "extends": [
+    "@fzf404/eslint-config"
+  ]
 }
 
 // .eslintrc.json
