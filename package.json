@@ -1,6 +1,6 @@
 {
   "name": "@fzf404/eslint-config",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Eslint config by fzf404",
   "license": "MIT",
   "main": "config.js",
