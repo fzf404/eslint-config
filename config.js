@@ -7,7 +7,7 @@ module.exports = {
     browser: true,
   },
   extends: ['eslint:recommended', './src/prettier.js', './src/typescript.js', './src/vue.js'],
-  ignorePatterns: readGitignoreFiles({ cwd: __dirname }),
+  ignorePatterns: readGitignoreFiles(),
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
