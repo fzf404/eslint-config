@@ -7,8 +7,7 @@
   "scripts": {
     "test": "eslint --cache .",
     "lint": "eslint --cache --fix .",
-    "format": "prettier --cache --write .",
-    "postinstall": "node install.js"
+    "format": "prettier --cache --write ."
   },
   "prettier": "@fzf404/prettier-config",
   "peerDependencies": {
@@ -23,7 +22,7 @@
     "eslint-plugin-vue": "^9.15.1"
   },
   "devDependencies": {
-    "@fzf404/prettier-config": "^0.3.3",
+    "@fzf404/prettier-config": "^0.3.4",
     "eslint": "^8.44.0",
     "prettier": "^3.0.0",
     "vue": "^3.3.4"
