@@ -11,6 +11,7 @@ My personal ESLint config ( 我的 ESLint 配置 )
 
 - Support ESM module ( 支持 ESM 模块 )
 - Compatible with Prettier ( 兼容 Prettier )
+- Support Vue and TypeScirpt ( 支持 Vue 和 TypeScript )
 - Ignore `.gitignore` included files ( 忽略 `.gitignore` 包含的文件 )
 
 ## Install ( 安装 )
@@ -21,7 +22,13 @@ npm i -D eslint @fzf404/eslint-config
 
 ## Usage ( 使用 )
 
-Edit `package.json` or `.eslintrc.json` ( 编辑 `package.json` 或 `.eslintrc.json`)
+1. Install `eslint` and `@fzf404/eslint-config` ( 安装 `eslint` 和 `@fzf404/eslint-config` )
+
+```bash
+npm i -D eslint @fzf404/eslint-config
+```
+
+2. Add config to `package.json` or `.eslintrc.json` ( 添加配置到 `package.json` 或 `.eslintrc.json`)
 
 ```jsonc
 // package.json
@@ -36,5 +43,14 @@ Edit `package.json` or `.eslintrc.json` ( 编辑 `package.json` 或 `.eslintrc.j
   "extends": [
     "@fzf404/eslint-config"
   ]
+}
+```
+
+3. Edit `package.json` scripts ( 编辑 `package.json` 脚本 )
+
+```jsonc
+// package.json
+"scripts": {
+  "lint": "eslint --cache --fix ."
 }
 ```
