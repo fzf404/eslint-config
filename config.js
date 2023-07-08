@@ -1,5 +1,6 @@
 const { readGitignoreFiles } = require('eslint-gitignore')
 
+/** @type {import('eslint-define-config').ESLintConfig} */
 module.exports = {
   env: {
     es6: true,

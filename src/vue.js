@@ -1,3 +1,4 @@
+/** @type {import('eslint-define-config').ESLintConfig} */
 module.exports = {
   overrides: [
     {
