@@ -2,8 +2,6 @@ const { getPackageInfoSync } = require('local-pkg')
 
 const isPrettier2 = getPackageInfoSync('prettier')?.version[0] === '2'
 
-new Error('123')
-
 /** @type {import('eslint-define-config').ESLintConfig} */
 module.exports = {
   extends: ['eslint-config-prettier'],
