@@ -22,23 +22,16 @@ npm i -D eslint @fzf404/eslint-config
 
 ## Usage ( 使用 )
 
-Edit `package.json` or `.eslintrc.json` ( 编辑 `package.json` 或 `.eslintrc.json` )
+Edit `package.json` ( 编辑 `package.json` )
 
 ```jsonc
-// package.json
+// script
 "scripts": {
   "lint": "eslint --cache --fix ."
 }
 
-// package.json
+// config
 "eslintConfig": {
-  "extends": [
-    "@fzf404/eslint-config"
-  ]
-}
-
-// .eslintrc.json
-{
   "extends": [
     "@fzf404/eslint-config"
   ]
