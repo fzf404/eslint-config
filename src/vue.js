@@ -8,7 +8,9 @@ module.exports = {
     {
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
-      extends: [isVue2 ? 'plugin:vue/recommended' : 'plugin:vue/vue3-recommended'],
+      extends: [
+        isVue2 ? 'plugin:vue/recommended' : 'plugin:vue/vue3-recommended',
+      ],
       parserOptions: {
         parser: '@typescript-eslint/parser',
       },
