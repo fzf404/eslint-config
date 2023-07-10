@@ -17,14 +17,15 @@
     "eslint-gitignore": "^0.1.0",
     "eslint-plugin-prettier": "5.0.0-alpha.2",
     "eslint-plugin-prettier-2": "npm:eslint-plugin-prettier@4.2.1",
+    "eslint-plugin-tailwindcss": "^3.13.0",
     "eslint-plugin-vue": "^9.15.1",
     "local-pkg": "^0.4.3"
   },
   "devDependencies": {
-    "@fzf404/prettier-config": "^0.3.4",
+    "@fzf404/prettier-config": "^0.4.0",
     "eslint": "^8.44.0",
     "eslint-define-config": "^1.21.0",
-    "prettier": "^3.0.0",
+    "prettier": "^2.8.8",
     "vue": "^3.3.4"
   },
   "peerDependencies": {
