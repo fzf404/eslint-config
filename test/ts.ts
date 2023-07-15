@@ -9,7 +9,7 @@ const proxy = new Proxy(count, {
     target: { number: number },
     property: string,
     value: number,
-    receiver: any
+    receiver: any,
   ) {
     console.log(`setting ${property}!`)
     return Reflect.set(target, property, value, receiver)
