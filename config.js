@@ -10,6 +10,8 @@ module.exports = {
   extends: [
     'eslint:recommended',
     './src/vue.js',
+    './src/json.js',
+    './src/package.js',
     './src/typescript.js',
     './src/tailwindcss.js',
     './src/prettier.js',
