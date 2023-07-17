@@ -2,7 +2,7 @@
 module.exports = {
   overrides: [
     {
-      files: ['package.json'],
+      files: ['**/package.json'],
       parser: 'jsonc-eslint-parser',
       rules: {
         'jsonc/sort-keys': [
