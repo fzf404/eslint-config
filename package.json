@@ -4,6 +4,10 @@
   "description": "ESLint config by fzf404",
   "license": "MIT",
   "main": "config.js",
+  "files": [
+    "src",
+    "config.js"
+  ],
   "scripts": {
     "test": "eslint --cache .",
     "lint": "eslint --cache --fix .",
