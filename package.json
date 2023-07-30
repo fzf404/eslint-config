@@ -9,7 +9,6 @@
     "config.js"
   ],
   "scripts": {
-    "test": "eslint --cache .",
     "lint": "eslint --cache --fix .",
     "format": "prettier --cache --write ."
   },
@@ -19,20 +18,15 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
-    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-prettier": "^8.9.0",
     "eslint-gitignore": "^0.1.0",
-    "eslint-plugin-json-files": "^3.0.0",
     "eslint-plugin-jsonc": "^2.9.0",
     "eslint-plugin-prettier": "5.0.0",
-    "eslint-plugin-prettier-2": "npm:eslint-plugin-prettier@4.2.1",
-    "eslint-plugin-tailwindcss": "^3.13.0",
-    "eslint-plugin-vue": "^9.15.1",
-    "local-pkg": "^0.4.3"
+    "eslint-plugin-vue": "^9.16.0"
   },
   "devDependencies": {
-    "@fzf404/prettier-config": "^0.4.4",
-    "eslint": "^8.45.0",
-    "eslint-define-config": "^1.21.0",
+    "@fzf404/prettier-config": "^0.4.6",
+    "eslint-define-config": "^1.22.0",
     "prettier": "^3.0.0",
     "vue": "^3.3.4"
   },
