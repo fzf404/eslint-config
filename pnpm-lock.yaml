@@ -32,8 +32,8 @@ dependencies:
 
 devDependencies:
   '@fzf404/prettier-config':
-    specifier: ^0.4.6
-    version: 0.4.6(postcss@8.4.27)(prettier@3.0.0)
+    specifier: ^0.5.0
+    version: 0.5.0(postcss@8.4.27)(prettier@3.0.0)
   eslint-define-config:
     specifier: ^1.22.0
     version: 1.22.0
@@ -120,8 +120,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: false
 
-  /@fzf404/prettier-config@0.4.6(postcss@8.4.27)(prettier@3.0.0):
-    resolution: {integrity: sha512-wiMKSsqOsRlJa/bWD1V9yMg6hE044aUNiZmBiXo6rf84bm13g6ttlb4IuWdULw6iRTpTcTXmwTG3wl3pQeuIpQ==}
+  /@fzf404/prettier-config@0.5.0(postcss@8.4.27)(prettier@3.0.0):
+    resolution: {integrity: sha512-Cr12+kyQrwKQa7UY/ziw+8kRuzd8BCqJmzQjqlXWCWx6KMHcziBmIi+JUSLW9oxAhT5ncNizWYd0GhCjtaVPJw==}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
