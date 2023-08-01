@@ -3,5 +3,8 @@ export default {
   extends: ['plugin:import/recommended', 'plugin:unicorn/recommended'],
   rules: {
     'import/named': 'off',
+    'import/no-unresolved': 'off',
+    'unicorn/prefer-module': 'off',
+    'unicorn/prevent-abbreviations': 'off',
   },
 }
