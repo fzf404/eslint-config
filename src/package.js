@@ -1,9 +1,8 @@
 /** @type {import('eslint-define-config').ESLintConfig} */
-module.exports = {
+export default {
   overrides: [
     {
       files: ['**/package.json'],
-      parser: 'jsonc-eslint-parser',
       rules: {
         'jsonc/sort-keys': [
           'error',
@@ -60,6 +59,13 @@ module.exports = {
           {
             pathPattern: '^exports.*$',
             order: ['types', 'require', 'import'],
+          },
+        ],
+        'jsonc/sort-array-values': [
+          'error',
+          {
+            pathPattern: '^files$',
+            order: { type: 'asc' },
           },
         ],
       },

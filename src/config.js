@@ -1,7 +1,7 @@
-const { readGitignoreFiles } = require('eslint-gitignore')
+import { readGitignoreFiles } from 'eslint-gitignore'
 
 /** @type {import('eslint-define-config').ESLintConfig} */
-module.exports = {
+export default {
   env: {
     es6: true,
     node: true,
@@ -9,15 +9,16 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    './src/vue.js',
-    './src/json.js',
-    './src/package.js',
-    './src/typescript.js',
-    './src/prettier.js',
+    './vue.js',
+    './json.js',
+    './package.js',
+    './javascript.js',
+    './typescript.js',
+    './prettier.js',
   ],
-  ignorePatterns: readGitignoreFiles(),
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
+  ignorePatterns: readGitignoreFiles(),
 }

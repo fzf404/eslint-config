@@ -1,4 +1,4 @@
 /** @type {import('eslint-define-config').ESLintConfig} */
-module.exports = {
+export default {
   extends: ['plugin:jsonc/recommended-with-jsonc'],
 }

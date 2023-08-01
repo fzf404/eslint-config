@@ -1,5 +1,5 @@
 /** @type {import('eslint-define-config').ESLintConfig} */
-module.exports = {
+export default {
   overrides: [
     {
       files: ['*.ts'],
