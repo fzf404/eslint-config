@@ -49,6 +49,7 @@ export default {
               'lint-staged',
               'simple-git-hooks',
               'prettier',
+              'stylelint',
               'eslintConfig',
             ],
           },
