@@ -11,7 +11,7 @@ My personal ESLint config ( 我的 ESLint 配置 )
 
 - Support ESM module ( 支持 ESM 模块 )
 - Compatible with Prettier 3 ( 兼容 Prettier 3 )
-- Support Vue 2 / 3 and TypeScirpt ( 支持 Vue 3 和 TypeScript )
+- Support Vue 3 and TypeScirpt ( 支持 Vue 3 和 TypeScript )
 - Ignore `.gitignore` included files ( 忽略 `.gitignore` 包含的文件 )
 
 ## Install ( 安装 )
