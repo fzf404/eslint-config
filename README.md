@@ -17,8 +17,8 @@ My personal ESLint config ( 我的 ESLint 配置 )
 
 ## Plugins ( 插件 )
 
-- Support imports validate ( 支持导入验证 ) [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)
-- Powerful ESLint rules ( 实用 ESLint 规则 )  [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
+- Imports validate ( Import 验证 ) [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)
+- Powerful ESLint rules ( 实用 ESLint 规则 ) [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 
 ## Install ( 安装 )
 
