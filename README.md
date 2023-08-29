@@ -11,8 +11,14 @@ My personal ESLint config ( 我的 ESLint 配置 )
 
 - Support ESM module ( 支持 ESM 模块 )
 - Compatible with Prettier 3 ( 兼容 Prettier 3 )
+- Support `package.json` order ( 支持 `packge.json` 排序 )
 - Support Vue 3 and TypeScirpt ( 支持 Vue 3 和 TypeScript )
 - Ignore `.gitignore` included files ( 忽略 `.gitignore` 包含的文件 )
+
+## Plugins ( 插件 )
+
+- [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)
+- [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 
 ## Install ( 安装 )
 
