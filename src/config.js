@@ -11,6 +11,7 @@ export default {
     'eslint:recommended',
     './vue.js',
     './json.js',
+    './unocss.js',
     './package.js',
     './javascript.js',
     './typescript.js',
