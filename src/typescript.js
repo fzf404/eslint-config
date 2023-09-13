@@ -9,7 +9,6 @@ export default {
           extends: ['plugin:@typescript-eslint/recommended'],
           rules: {
             '@typescript-eslint/no-explicit-any': 'off',
-            '@typescript-eslint/consistent-type-exports': 'error',
             '@typescript-eslint/consistent-type-imports': 'error',
           },
         },
