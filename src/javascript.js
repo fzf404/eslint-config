@@ -6,5 +6,6 @@ export default {
     'import/no-unresolved': 'off',
     'unicorn/prefer-module': 'off',
     'unicorn/prevent-abbreviations': 'off',
+    'unicorn/no-object-as-default-parameter': 'off',
   },
 }
