@@ -12,6 +12,7 @@ export default {
     './vue.js',
     './json.js',
     './unocss.js',
+    './import.js',
     './package.js',
     './javascript.js',
     './typescript.js',

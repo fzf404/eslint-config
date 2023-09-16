@@ -32,6 +32,9 @@ dependencies:
   eslint-plugin-prettier:
     specifier: 5.0.0
     version: 5.0.0(eslint-config-prettier@9.0.0)(eslint@8.46.0)(prettier@3.0.3)
+  eslint-plugin-simple-import-sort:
+    specifier: ^10.0.0
+    version: 10.0.0(eslint@8.46.0)
   eslint-plugin-unicorn:
     specifier: ^48.0.1
     version: 48.0.1(eslint@8.46.0)
@@ -1831,6 +1834,14 @@ packages:
       prettier: 3.0.3
       prettier-linter-helpers: 1.0.0
       synckit: 0.8.5
+    dev: false
+
+  /eslint-plugin-simple-import-sort@10.0.0(eslint@8.46.0):
+    resolution: {integrity: sha512-AeTvO9UCMSNzIHRkg8S6c3RPy5YEwKWSQPx3DYghLedo2ZQxowPFLGDN1AZ2evfg6r6mjBSZSLxLFsWSu3acsw==}
+    peerDependencies:
+      eslint: '>=5.0.0'
+    dependencies:
+      eslint: 8.46.0
     dev: false
 
   /eslint-plugin-unicorn@48.0.1(eslint@8.46.0):
