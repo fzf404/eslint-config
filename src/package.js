@@ -32,6 +32,7 @@ export default {
               'dependencies',
               'devDependencies',
               'engines',
+              'config',
               'husky',
               'lint-staged',
               'simple-git-hooks',
