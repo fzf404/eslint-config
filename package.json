@@ -1,6 +1,6 @@
 {
   "name": "@fzf404/eslint-config",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "description": "ESLint config by fzf404",
   "license": "MIT",
   "homepage": "https://github.com/fzf404/eslint-config",
@@ -15,7 +15,8 @@
   "scripts": {
     "lint": "eslint --cache --fix .",
     "format": "prettier --cache --write .",
-    "build": "tsup src/*.js --clean --splitting --cjsInterop --format cjs"
+    "build": "tsup src/*.js --clean --splitting --cjsInterop --format cjs",
+    "release": "bummp"
   },
   "peerDependencies": {
     "eslint": "^8.0.0"
