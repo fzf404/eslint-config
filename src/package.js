@@ -14,6 +14,7 @@ export default {
               'private',
               'keywords',
               'description',
+              'author',
               'license',
               'homepage',
               'repository',
