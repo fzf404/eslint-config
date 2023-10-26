@@ -12,8 +12,8 @@ dependencies:
     specifier: ^6.2.1
     version: 6.9.0(eslint@8.46.0)(typescript@5.2.2)
   '@unocss/eslint-config':
-    specifier: ^0.56.2
-    version: 0.56.5(eslint@8.46.0)(typescript@5.2.2)
+    specifier: ^0.57.1
+    version: 0.57.1(eslint@8.46.0)(typescript@5.2.2)
   eslint:
     specifier: ^8.0.0
     version: 8.46.0
@@ -724,14 +724,6 @@ packages:
       - rollup
     dev: true
 
-  /@unocss/config@0.56.5:
-    resolution: {integrity: sha512-rscnFIYgUlN/0hXHdhANyjFcDjDutt3JO0ZRITdNLzoglh7GVNiDTURBJwUZejF/vGJ7IkMd3qOdNhPFuRY1Bg==}
-    engines: {node: '>=14'}
-    dependencies:
-      '@unocss/core': 0.56.5
-      unconfig: 0.3.10
-    dev: false
-
   /@unocss/config@0.57.0:
     resolution: {integrity: sha512-hgJ/40gNkU7PQb+v1BTerb8QH1xNJkzSaj1IPWjSq/ibPmrS7+9ics2YIsKzxC3GAr7YdhD8IBdCEEop0iJhTQ==}
     engines: {node: '>=14'}
@@ -740,32 +732,40 @@ packages:
       unconfig: 0.3.11
     dev: true
 
-  /@unocss/core@0.56.5:
-    resolution: {integrity: sha512-fx5VhOjSHn0HdV2D34pEwFMAHJcJQRTCp1xEE4GzxY1irXzaa+m2aYf5PZjmDxehiOC16IH7TO9FOWANXk1E0w==}
+  /@unocss/config@0.57.1:
+    resolution: {integrity: sha512-mbuVO0mH1PX7rEkViMNWb3jG1ji7TUydo2DdnMHhJE+dOrGtnQzhzXGlAd4qqel1fnt/VWuOyZKwJA3QO6VCtg==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@unocss/core': 0.57.1
+      unconfig: 0.3.11
     dev: false
 
   /@unocss/core@0.57.0:
     resolution: {integrity: sha512-vjLnE3PnbFQY0du8jC1hZorFNFlVBBeqo7AoO+69Jqx7aJx3gtBlg4QQV607LIJgU+hsul3RUy8r/pKb7y1MoA==}
     dev: true
 
-  /@unocss/eslint-config@0.56.5(eslint@8.46.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-UP7EBTl4ORRO0yqptW7oUWxM0qNh1Nk+z4rufC0C2kI8vKc8yab+sWvlBSC8DeX3kzR7uJxvtUsHGcBcoqZujg==}
+  /@unocss/core@0.57.1:
+    resolution: {integrity: sha512-cqQW/4gCuk+bFMPg9lBanuRNQ9Lx1l4PpMN/6uKxI5WROpq7ce/Xb4uGvAxKLh3ITtFSpXs2cLfsy7QD6cVD/Q==}
+    dev: false
+
+  /@unocss/eslint-config@0.57.1(eslint@8.46.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-49okz5jnpiB8uPWVRm9+iEvPaTCIm9dLwAVqN8ZMKq33SuGeTfX/dNR6i8/iKyFMBHPrLmvh3WPGq5iIAZTawQ==}
     engines: {node: '>=14'}
     dependencies:
-      '@unocss/eslint-plugin': 0.56.5(eslint@8.46.0)(typescript@5.2.2)
+      '@unocss/eslint-plugin': 0.57.1(eslint@8.46.0)(typescript@5.2.2)
     transitivePeerDependencies:
       - eslint
       - supports-color
       - typescript
     dev: false
 
-  /@unocss/eslint-plugin@0.56.5(eslint@8.46.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-nMVw/kc0sYU5i8UBU1rEahzKhZRPTUjCztpPzo2KUKFKLBPAbTv0gJAOmU/n2kV3YiGk5Tl6jmShxu1MHjk5rA==}
+  /@unocss/eslint-plugin@0.57.1(eslint@8.46.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-aErMKeSkJ78bXlqNd2bb0qzebKXAWVHcCSsP58xuzQsLkaNvwtj+/MrYDuF5PCNZakUCR1snfP4f/MGCP4+OmQ==}
     engines: {node: '>=14'}
     dependencies:
       '@typescript-eslint/utils': 6.8.0(eslint@8.46.0)(typescript@5.2.2)
-      '@unocss/config': 0.56.5
-      '@unocss/core': 0.56.5
+      '@unocss/config': 0.57.1
+      '@unocss/core': 0.57.1
       magic-string: 0.30.5
       synckit: 0.8.5
     transitivePeerDependencies:
@@ -2361,15 +2361,9 @@ packages:
   /isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  /jiti@1.19.3:
-    resolution: {integrity: sha512-5eEbBDQT/jF1xg6l36P+mWGGoH9Spuy0PCdSr2dtWRDGC6ph/w9ZCL4lmESW8f8F7MwT3XKescfP0wnZWAKL9w==}
-    hasBin: true
-    dev: false
-
   /jiti@1.20.0:
     resolution: {integrity: sha512-3TV69ZbrvV6U5DfQimop50jE9Dl6J8O1ja1dvBbMba/sZ3YBEQqJ2VZRoQPVnhlzjNtU1vaXRZVrVjU4qtm8yA==}
     hasBin: true
-    dev: true
 
   /joycon@3.1.1:
     resolution: {integrity: sha512-34wB/Y7MW7bzjKRjUKTa46I2Z7eV62Rkhva+KkopW7Qvv/OSWBqvkSY7vusOPrNuZcUG3tApvdVgNB8POj3SPw==}
@@ -3395,15 +3389,6 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: false
 
-  /unconfig@0.3.10:
-    resolution: {integrity: sha512-tj317lhIq2iZF/NXrJnU1t2UaGUKKz1eL1sK2t63Oq66V9BxqvZV12m55fp/fpQJ+DDmVlLgo7cnLVOZkhlO/A==}
-    dependencies:
-      '@antfu/utils': 0.7.6
-      defu: 6.1.2
-      jiti: 1.19.3
-      mlly: 1.4.2
-    dev: false
-
   /unconfig@0.3.11:
     resolution: {integrity: sha512-bV/nqePAKv71v3HdVUn6UefbsDKQWRX+bJIkiSm0+twIds6WiD2bJLWWT3i214+J/B4edufZpG2w7Y63Vbwxow==}
     dependencies:
@@ -3411,7 +3396,6 @@ packages:
       defu: 6.1.2
       jiti: 1.20.0
       mlly: 1.4.2
-    dev: true
 
   /unocss@0.57.0(postcss@8.4.31)(vite@4.4.9):
     resolution: {integrity: sha512-753IZDPUOHo54/Q2j764a5lLX89jd4xCcRwNBRZKm8sGyBPLAPZgeh85dGN1l69gPaGV2IxvbUvv1qLfQZsoYQ==}
