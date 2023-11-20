@@ -38,7 +38,7 @@
     "@fzf404/prettier-config": "^0.7.0",
     "eslint-define-config": "^1.22.0",
     "prettier": "^3.0.0",
-    "tsup": "^7.2.0",
+    "tsup": "^8.0.0",
     "typescript": "^5.2.2",
     "unocss": "^0.57.0",
     "vue": "^3.3.4"
