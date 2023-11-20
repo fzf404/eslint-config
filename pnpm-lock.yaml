@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^0.7.0
     version: 0.7.0(prettier@3.1.0)
   eslint-define-config:
-    specifier: ^1.22.0
-    version: 1.24.1
+    specifier: ^2.0.0
+    version: 2.0.0
   prettier:
     specifier: ^3.0.0
     version: 3.1.0
@@ -1529,9 +1529,9 @@ packages:
       eslint: 8.52.0
     dev: false
 
-  /eslint-define-config@1.24.1:
-    resolution: {integrity: sha512-o36vBhPSWyIQlHoMqGhhcGmOOm2A2ccBVIdLTG/AWdm9YmjpsLpf+5ntf9LlHR6dduLREgxtGwvwPwSt7vnXJg==}
-    engines: {node: '>=18.0.0', npm: '>=9.0.0', pnpm: '>= 8.6.0'}
+  /eslint-define-config@2.0.0:
+    resolution: {integrity: sha512-M8ao9mAE35BGwjZeT8ZlsRA42wcJHWS29Avd0qfeclRXig6uTnGXcaO7UxVyFzUA1VJtxeV/acw4KrhJA3JqxQ==}
+    engines: {node: '>=18.0.0', npm: '>=9.0.0', pnpm: '>=8.6.0'}
     dev: true
 
   /eslint-gitignore@0.1.0(eslint@8.52.0):
