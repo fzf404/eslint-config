@@ -14,6 +14,7 @@ export default {
     './unocss.js',
     './import.js',
     './package.js',
+    './markdown.js',
     './javascript.js',
     './typescript.js',
     './prettier.js',
