@@ -1,11 +1,12 @@
-# os
-.DS_Store
-
-# depend
-node_modules
-
 # build
 dist
 
+# os
+.DS_Store
+
 # cache
 .eslintcache
+
+# package
+node_modules
+pnpm-lock.yaml
