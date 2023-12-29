@@ -9,33 +9,39 @@ My personal ESLint config ( 我的 ESLint 配置 )
 
 ## Features ( 特性 )
 
-- ESM module ( ESM 模块 )
-- UnoCSS order ( UnoCSS 排序 )
-- Markdown format ( Markdown 格式化 )
-- JavaScript Strict ( JavaScript 严格 )
-- Prettier 3 compatible ( Prettier 3 兼容 )
-- Vue 3 and TypeScript ( Vue 3 和 TypeScript )
-- Import / Export order ( Import / Export 排序 )
-- `.gitignore` ignore ( `.gitignore` 忽略 )
-- `packge.json` order ( `packge.json` 排序 )
+- Support ESM ( 支持 ESM )
+- Support Vue 3 ( 支持 Vue 3 )
+- Support TypeScript ( 支持 TypeScript )
+- Compatible Prettier 3 ( 兼容 Prettier 3 )
+- Support Import order ( 支持 Import 排序 )
+- Support UnoCSS order ( 支持 UnoCSS 排序 )
+- Support Markdown format ( 支持 Markdown 格式化 )
+- Support `packge.json` order ( 支持 `packge.json` 排序 )
+
+- Ignore `.gitignore` include files ( 忽略 `.gitignore` 包含的文件 )
 
 ## Plugins ( 插件 )
 
-- Vue plugin ( Vue 插件 ) [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
-- JSON plugin ( JSON 插件 ) [eslint-plugin-json](https://github.com/ota-meshi/eslint-plugin-jsonc)
-- UnoCSS plugin ( UnoCSS 插件 ) [@unocss/eslint-config](https://github.com/unocss/unocss/tree/main/packages/eslint-config)
-- Markdown plugin ( Markdown 插件 ) [eslint-plugin-markdown](https://github.com/eslint/eslint-plugin-markdown)
-- Prettier plugin ( Prettier 插件 ) [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
-- Gitignore plugin ( Gitignore 插件 ) [eslint-gitignore](https://github.com/mysticatea/eslint-gitignore)
-- TypeScript plugin ( TypeScript 插件 ) [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint)
-- Import order ( Import 排序 ) [eslint-plugin-simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort)
-- Import validate ( Import 验证 ) [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)
-- Powerful ESLint rules ( 实用 ESLint 规则 ) [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
+- [eslint-gitignore](https://github.com/mysticatea/eslint-gitignore) - Git plugin ( Git 插件 )
+- [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue) - Vue plugin ( Vue 插件 )
+- [eslint-plugin-jsonc](https://github.com/ota-meshi/eslint-plugin-jsonc) - JSON plugin ( JSON 插件 )
+- [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import) - Import validate ( Import 验证 )
+- [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) - Prettier plugin ( Prettier 插件 ) 
+- [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn) - Powerful ESLint rules ( 实用 ESLint 规则 ) 
+- [eslint-plugin-markdown](https://github.com/eslint/eslint-plugin-markdown) - Markdown plugin ( Markdown 插件 ) 
+- [eslint-plugin-simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort) - Import order ( Import 排序 ) 
+- [@unocss/eslint-config](https://github.com/unocss/unocss/tree/main/packages/eslint-config) -  UnoCSS plugin ( UnoCSS 插件 )
+- [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint) - TypeScript plugin ( TypeScript 插件 ) 
 
 ## Install ( 安装 )
 
 ```bash
+# npm
 npm i -D eslint @fzf404/eslint-config
+# yarn
+yarn i -D eslint @fzf404/eslint-config
+# pnpm
+pnpm i -D eslint @fzf404/eslint-config
 ```
 
 ## Usage ( 使用 )

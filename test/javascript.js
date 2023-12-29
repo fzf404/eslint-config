@@ -1,6 +1,6 @@
-const count = {}
-
 let number = 0
+
+const count = {}
 
 Object.defineProperty(count, 'number', {
   get() {
