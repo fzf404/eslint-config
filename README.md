@@ -38,8 +38,10 @@ My personal ESLint config ( 我的 ESLint 配置 )
 ```bash
 # npm
 npm i -D eslint @fzf404/eslint-config
+
 # yarn
 yarn i -D eslint @fzf404/eslint-config
+
 # pnpm
 pnpm i -D eslint @fzf404/eslint-config
 ```
@@ -48,7 +50,7 @@ pnpm i -D eslint @fzf404/eslint-config
 
 Edit `package.json` ( 编辑 `package.json` )
 
-```json
+```jsonc
 {
   // scripts
   "scripts": {
@@ -63,7 +65,7 @@ Edit `package.json` ( 编辑 `package.json` )
 
 Edit `Visual Studio Code` Setting ( 编辑 `Visual Studio Code` 设置 )
 
-```json
+```jsonc
 {
   // auto lint
   "editor.codeActionsOnSave": {
