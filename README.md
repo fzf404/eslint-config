@@ -52,11 +52,9 @@ Edit `package.json` ( 编辑 `package.json` )
 
 ```jsonc
 {
-  // scripts
   "scripts": {
     "lint": "eslint --cache --fix ."
   },
-  // eslint config
   "eslintConfig": {
     "extends": ["@fzf404/eslint-config"]
   }
@@ -67,11 +65,9 @@ Edit `Visual Studio Code` Setting ( 编辑 `Visual Studio Code` 设置 )
 
 ```jsonc
 {
-  // auto lint
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
-  // validate files
   "eslint.validate": ["vue", "json", "markdown", "javascript", "typescript"]
 }
 ```
