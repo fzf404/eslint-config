@@ -18,7 +18,7 @@
     "build": "tsup src/*.js --clean --splitting --cjsInterop"
   },
   "peerDependencies": {
-    "eslint": "^8.56.0"
+    "eslint": "^8.0.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.17.0",
