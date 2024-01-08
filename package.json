@@ -18,11 +18,11 @@
     "build": "tsup src/*.js --clean --splitting --cjsInterop"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^8.56.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.17.0",
-    "@typescript-eslint/parser": "^6.17.0",
+    "@typescript-eslint/eslint-plugin": "^6.18.0",
+    "@typescript-eslint/parser": "^6.18.0",
     "@unocss/eslint-config": "^0.58.3",
     "eslint-config-prettier": "^9.1.0",
     "eslint-gitignore": "^0.1.0",
@@ -42,7 +42,7 @@
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
     "unocss": "^0.58.3",
-    "vue": "^3.4.4"
+    "vue": "^3.4.5"
   },
   "prettier": "@fzf404/prettier-config",
   "eslintConfig": {
