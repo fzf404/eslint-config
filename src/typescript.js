@@ -8,8 +8,8 @@ export default {
           files: ['*.ts'],
           extends: ['plugin:@typescript-eslint/recommended'],
           rules: {
-            '@typescript-eslint/no-explicit-any': 'off',
-            '@typescript-eslint/consistent-type-imports': 'error',
+            '@typescript-eslint/no-explicit-any': 'off', // porhibited any type
+            '@typescript-eslint/consistent-type-imports': 'error', // enforce consistent import s
           },
         },
       ]

@@ -17,7 +17,6 @@ My personal ESLint config ( 我的 ESLint 配置 )
 - Support UnoCSS order ( 支持 UnoCSS 排序 )
 - Support Markdown format ( 支持 Markdown 格式化 )
 - Support `packge.json` order ( 支持 `packge.json` 排序 )
-
 - Ignore `.gitignore` include files ( 忽略 `.gitignore` 包含的文件 )
 
 ## Plugins ( 插件 )

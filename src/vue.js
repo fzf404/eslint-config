@@ -14,7 +14,7 @@ export default {
           rules: {
             'vue/no-v-html': 'off',
             'vue/require-default-prop': 'off',
-            'vue/multi-word-component-names': 'off',
+            'vue/multi-word-component-names': 'off', // restricted component name
           },
         },
       ]
