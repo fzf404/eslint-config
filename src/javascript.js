@@ -4,6 +4,7 @@ export default {
   rules: {
     'import/named': 'off',
     'import/no-unresolved': 'off',
+    'unicorn/no-null': 'off',
     'unicorn/prefer-module': 'off',
     'unicorn/filename-case': 'off',
     'unicorn/prevent-abbreviations': 'off',
