@@ -2,6 +2,7 @@
 export default {
   extends: ['plugin:import/recommended', 'plugin:unicorn/recommended'],
   rules: {
+    'no-undef': 'off', // undefined variables ( not support nuxt)
     'import/named': 'off', // verfied import (not support vue)
     'import/no-unresolved': 'off', // resolved import (not support vite)
     'unicorn/no-null': 'off', // use undefined instead of null
