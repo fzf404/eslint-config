@@ -9,6 +9,7 @@ export default {
   },
   extends: [
     'eslint:recommended',
+    './nuxt.js',
     './vue.js',
     './json.js',
     './unocss.js',
