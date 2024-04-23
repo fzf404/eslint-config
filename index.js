@@ -10,6 +10,9 @@ module.exports = {
     'eslint:recommended',
     // import lint
     './src/import.js',
+    // common lint
+    './src/javascript.js',
+    './src/typescript.js',
     // farmework lint
     './src/nuxt.js',
     './src/vue.js',
@@ -17,9 +20,6 @@ module.exports = {
     // style lint
     './src/unocss.js',
     './src/tailwindcss.js',
-    // common lint
-    './src/javascript.js',
-    './src/typescript.js',
     // file lint
     './src/json.js',
     './src/package.js',
