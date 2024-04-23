@@ -1,6 +1,4 @@
-const { defineConfig } = require('eslint-define-config')
-
-module.exports = defineConfig({
+module.exports = {
   overrides: [
     {
       files: ['**/package.json'],
@@ -55,4 +53,4 @@ module.exports = defineConfig({
       },
     },
   ],
-})
+}

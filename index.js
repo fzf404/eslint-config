@@ -1,7 +1,6 @@
-const { defineConfig } = require('eslint-define-config')
 const { readGitignoreFiles } = require('eslint-gitignore')
 
-module.exports = defineConfig({
+module.exports = {
   env: {
     es6: true,
     node: true,
@@ -33,4 +32,4 @@ module.exports = defineConfig({
     ecmaVersion: 'latest',
   },
   ignorePatterns: readGitignoreFiles(),
-})
+}

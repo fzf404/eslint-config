@@ -1,6 +1,4 @@
-const { defineConfig } = require('eslint-define-config')
-
-module.exports = defineConfig({
+module.exports = {
   extends: ['plugin:import/recommended'],
   plugins: ['simple-import-sort'],
   rules: {
@@ -9,4 +7,4 @@ module.exports = defineConfig({
     'import/named': 'off', // verfied import (not support vue)
     'import/no-unresolved': 'off', // resolved import (not support vite)
   },
-})
+}
