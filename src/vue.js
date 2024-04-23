@@ -1,22 +1,13 @@
-import { isPackageExists } from 'local-pkg'
+const { isPackageExists } = require('local-pkg')
+const { defineConfig } = require('eslint-define-config')
 
-/** @type {import('eslint-define-config').ESLintConfig} */
-export default {
-  overrides: isPackageExists('vue')
-    ? [
-        {
-          files: ['*.vue'],
-          parser: 'vue-eslint-parser',
-          extends: ['plugin:vue/vue3-recommended'],
-          parserOptions: {
-            parser: '@typescript-eslint/parser',
-          },
-          rules: {
-            'vue/no-v-html': 'off',
-            'vue/require-default-prop': 'off',
-            'vue/multi-word-component-names': 'off', // restricted component name
-          },
-        },
-      ]
-    : [],
-}
+module.exports = isPackageExists('vue')
+  ? defineConfig({
+      extends: ['plugin:vue/vue3-recommended'],
+      rules: {
+        'vue/no-v-html': 'off',
+        'vue/require-default-prop': 'off',
+        'vue/multi-word-component-names': 'off',
+      },
+    })
+  : {}

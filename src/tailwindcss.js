@@ -1,8 +1,8 @@
 const { isPackageExists } = require('local-pkg')
 const { defineConfig } = require('eslint-define-config')
 
-module.exports = isPackageExists('prettier')
+module.exports = isPackageExists('tailwindcss')
   ? defineConfig({
-      extends: ['plugin:prettier/recommended'],
+      extends: ['plugin:tailwindcss/recommended'],
     })
   : {}

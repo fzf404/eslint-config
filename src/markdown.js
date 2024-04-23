@@ -1,4 +1,5 @@
-/** @type {import('eslint-define-config').ESLintConfig} */
-export default {
-  extends: 'plugin:markdown/recommended-legacy',
-}
+const { defineConfig } = require('eslint-define-config')
+
+module.exports = defineConfig({
+  extends: ['plugin:markdown/recommended-legacy'],
+})

@@ -1,17 +1,12 @@
-import { isPackageExists } from 'local-pkg'
+const { isPackageExists } = require('local-pkg')
+const { defineConfig } = require('eslint-define-config')
 
-/** @type {import('eslint-define-config').ESLintConfig} */
-export default {
-  overrides: isPackageExists('typescript')
-    ? [
-        {
-          files: ['*.ts'],
-          extends: ['plugin:@typescript-eslint/recommended'],
-          rules: {
-            '@typescript-eslint/no-explicit-any': 'off', // porhibited any type
-            '@typescript-eslint/consistent-type-imports': 'error', // enforce consistent import s
-          },
-        },
-      ]
-    : [],
-}
+module.exports = isPackageExists('typescript')
+  ? defineConfig({
+      extends: ['plugin:@typescript-eslint/recommended'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off', // allow require
+        '@typescript-eslint/no-explicit-any': 'off', // allow any type
+      },
+    })
+  : {}

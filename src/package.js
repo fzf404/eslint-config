@@ -1,11 +1,20 @@
-/** @type {import('eslint-define-config').ESLintConfig} */
-export default {
+const { defineConfig } = require('eslint-define-config')
+
+module.exports = defineConfig({
   overrides: [
     {
       files: ['**/package.json'],
       rules: {
         'jsonc/sort-keys': [
           'error',
+          {
+            pathPattern: '^exports.*$',
+            order: ['types', 'require', 'import'],
+          },
+          {
+            pathPattern: '^(?:dev|peer)?[Dd]ependencies$',
+            order: { type: 'asc' },
+          },
           {
             pathPattern: '^$',
             order: [
@@ -42,23 +51,8 @@ export default {
               'stylelint',
             ],
           },
-          {
-            pathPattern: '^(?:dev|peer)?[Dd]ependencies$',
-            order: { type: 'asc' },
-          },
-          {
-            pathPattern: '^exports.*$',
-            order: ['types', 'require', 'import'],
-          },
-        ],
-        'jsonc/sort-array-values': [
-          'error',
-          {
-            pathPattern: '^files$',
-            order: { type: 'asc' },
-          },
         ],
       },
     },
   ],
-}
+})

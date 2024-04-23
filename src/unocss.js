@@ -1,6 +1,8 @@
-import { isPackageExists } from 'local-pkg'
+const { isPackageExists } = require('local-pkg')
+const { defineConfig } = require('eslint-define-config')
 
-/** @type {import('eslint-define-config').ESLintConfig} */
-export default {
-  extends: isPackageExists('unocss') ? ['@unocss/eslint-config'] : [],
-}
+module.exports = isPackageExists('unocss')
+  ? defineConfig({
+      extends: ['@unocss/eslint-config'],
+    })
+  : {}
