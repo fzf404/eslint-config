@@ -44,13 +44,13 @@ My personal ESLint config ( 我的 ESLint 配置 )
 
 ```bash
 # npm
-npm i -D eslint @fzf404/eslint-config
+npm i -D @fzf404/eslint-config
 
 # yarn
-yarn i -D eslint @fzf404/eslint-config
+yarn i -D @fzf404/eslint-config
 
 # pnpm
-pnpm i -D eslint @fzf404/eslint-config
+pnpm i -D @fzf404/eslint-config
 ```
 
 ## Usage ( 使用 )
