@@ -4,7 +4,7 @@ module.exports = isPackageExists('react')
   ? {
       overrides: [
         {
-          files: ['*.ts', '*.tsx'],
+          files: ['*.jsx', '*.tsx'],
           extends: ['plugin:react/recommended'],
           settings: {
             react: {
