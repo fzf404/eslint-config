@@ -16,10 +16,8 @@ module.exports = {
     // framework lint
     './src/nuxt.js',
     './src/vue.js',
-    './src/react.js',
     // style lint
     './src/unocss.js',
-    './src/tailwindcss.js',
     // file lint
     './src/json.js',
     './src/package.js',
