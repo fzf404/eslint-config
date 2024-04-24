@@ -1,7 +1,8 @@
 const { isPackageExists } = require('local-pkg')
 
-module.exports = isPackageExists('tailwindcss')
-  ? {
-      extends: ['plugin:tailwindcss/recommended'],
-    }
-  : {}
+module.exports =
+  isPackageExists('autoprefixer') && isPackageExists('tailwindcss')
+    ? {
+        extends: ['plugin:tailwindcss/recommended'],
+      }
+    : {}

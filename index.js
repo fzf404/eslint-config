@@ -13,7 +13,7 @@ module.exports = {
     // common lint
     './src/javascript.js',
     './src/typescript.js',
-    // farmework lint
+    // framework lint
     './src/nuxt.js',
     './src/vue.js',
     './src/react.js',
