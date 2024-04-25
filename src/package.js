@@ -26,8 +26,6 @@ module.exports = {
               'homepage',
               'repository',
               'files',
-              'unpkg',
-              'jsdelivr',
               'type',
               'module',
               'types',
