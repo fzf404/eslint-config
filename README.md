@@ -71,6 +71,14 @@ Edit `Visual Studio Code` Setting ( 编辑 `Visual Studio Code` 设置 )
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
   },
-  "eslint.validate": ["vue", "json", "markdown", "javascript", "typescript"],
+  "eslint.validate": [
+    "vue",
+    "html",
+    "json",
+    "jsonc",
+    "markdown",
+    "javascript",
+    "typescript",
+  ],
 }
 ```

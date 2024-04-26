@@ -2,5 +2,31 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
-  "eslint.validate": ["vue", "json", "markdown", "javascript", "typescript"]
+  "eslint.validate": [
+    "vue",
+    "html",
+    "json",
+    "jsonc",
+    "markdown",
+    "javascript",
+    "typescript"
+  ],
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
