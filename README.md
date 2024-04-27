@@ -53,7 +53,7 @@ pnpm i -D @fzf404/eslint-config
 
 Edit `package.json` ( 编辑 `package.json` )
 
-```jsonc
+```json
 {
   "scripts": {
     "lint": "eslint --cache --fix .",
@@ -66,7 +66,7 @@ Edit `package.json` ( 编辑 `package.json` )
 
 Edit `Visual Studio Code` Setting ( 编辑 `Visual Studio Code` 设置 )
 
-```jsonc
+```json
 {
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
