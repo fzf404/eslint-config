@@ -40,12 +40,6 @@ My personal ESLint config ( 我的 ESLint 配置 )
 
 ```bash
 # npm
-npm i -D @fzf404/eslint-config
-
-# yarn
-yarn i -D @fzf404/eslint-config
-
-# pnpm
 pnpm i -D @fzf404/eslint-config
 ```
 
