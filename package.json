@@ -19,7 +19,7 @@
   "dependencies": {
     "@nuxt/eslint-config": "^0.3.12",
     "@unocss/eslint-config": "^0.60.2",
-    "eslint": "^8.57.0",
+    "eslint": "^9.2.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-gitignore": "^0.1.0",
     "eslint-plugin-import": "^2.29.1",
