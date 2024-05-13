@@ -7,7 +7,7 @@ module.exports = {
     'simple-import-sort/imports': [
       'error',
       {
-        groups: [['^node:'], ['^@?\\w'], ['^'], ['^\\.'], ['^\\u0000']],
+        groups: [['^node:'], [`^@?\\w`], ['^'], [`^\\.`], [`^\u0000`]],
       },
     ],
   },
