@@ -39,7 +39,6 @@ My personal ESLint config ( 我的 ESLint 配置 )
 ## Install ( 安装 )
 
 ```bash
-# npm
 pnpm i -D @fzf404/eslint-config
 ```
 
