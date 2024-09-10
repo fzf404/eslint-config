@@ -30,15 +30,15 @@
     "eslint-plugin-unicorn": "^55.0.0",
     "eslint-plugin-vue": "^9.28.0",
     "local-pkg": "^0.5.0",
-    "typescript-eslint": "^8.4.0"
+    "typescript-eslint": "^8.5.0"
   },
   "devDependencies": {
     "@fzf404/prettier-config": "^0.7.5",
     "prettier": "^3.3.3",
     "react": "^18.3.1",
-    "typescript": "^5.5.4",
+    "typescript": "^5.6.2",
     "unocss": "^0.62.3",
-    "vue": "^3.5.3"
+    "vue": "^3.5.4"
   },
   "prettier": "@fzf404/prettier-config",
   "eslintConfig": {
