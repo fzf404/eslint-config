@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@nuxt/eslint-config": "^0.6.0",
-    "@unocss/eslint-config": "^0.63.4",
+    "@unocss/eslint-config": "^65.4.3",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.0.1",
     "eslint-gitignore": "^0.1.0",
@@ -37,7 +37,7 @@
     "prettier": "^3.3.3",
     "react": "^19.0.0",
     "typescript": "^5.6.3",
-    "unocss": "^0.63.4",
+    "unocss": "^65.4.3",
     "vue": "^3.5.12"
   },
   "prettier": "@fzf404/prettier-config",
