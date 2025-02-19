@@ -17,7 +17,7 @@
     "format": "prettier --cache --write ."
   },
   "dependencies": {
-    "@nuxt/eslint-config": "^0.7.5",
+    "@nuxt/eslint-config": "^1.1.0",
     "@unocss/eslint-config": "^66.0.0",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.0.1",
