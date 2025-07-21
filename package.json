@@ -27,7 +27,7 @@
     "eslint-plugin-markdown": "^5.1.0",
     "eslint-plugin-prettier": "5.5.1",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-unicorn": "^59.0.1",
+    "eslint-plugin-unicorn": "^60.0.0",
     "eslint-plugin-vue": "^10.3.0",
     "local-pkg": "^1.1.1",
     "typescript-eslint": "^8.37.0"
