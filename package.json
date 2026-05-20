@@ -17,28 +17,28 @@
     "format": "prettier --cache --write ."
   },
   "dependencies": {
-    "@nuxt/eslint-config": "^1.9.0",
-    "@unocss/eslint-config": "^66.5.2",
+    "@nuxt/eslint-config": "^1.15.2",
+    "@unocss/eslint-config": "^66.6.8",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-gitignore": "^0.1.0",
     "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-jsonc": "^2.20.1",
+    "eslint-plugin-jsonc": "^2.21.1",
     "eslint-plugin-markdown": "^5.1.0",
-    "eslint-plugin-prettier": "5.5.4",
+    "eslint-plugin-prettier": "5.5.5",
     "eslint-plugin-simple-import-sort": "^13.0.0",
     "eslint-plugin-unicorn": "^61.0.2",
-    "eslint-plugin-vue": "^10.5.0",
-    "local-pkg": "^1.1.2",
-    "typescript-eslint": "^8.44.1"
+    "eslint-plugin-vue": "^10.9.1",
+    "local-pkg": "^1.2.0",
+    "typescript-eslint": "^8.59.4"
   },
   "devDependencies": {
     "@fzf404/prettier-config": "^0.7.5",
-    "prettier": "^3.6.2",
-    "react": "^19.1.1",
-    "typescript": "^5.9.2",
-    "unocss": "^66.5.2",
-    "vue": "^3.5.22"
+    "prettier": "^3.8.3",
+    "react": "^19.2.6",
+    "typescript": "^5.9.3",
+    "unocss": "^66.6.8",
+    "vue": "^3.5.34"
   },
   "prettier": "@fzf404/prettier-config",
   "eslintConfig": {
