@@ -1,3 +1,21 @@
 {
-  "extends": ["github>fzf404/renovate-config"]
+  "extends": ["github>fzf404/renovate-config"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["eslint"],
+      "allowedVersions": "<10"
+    },
+    {
+      "matchPackageNames": ["typescript"],
+      "allowedVersions": "<7"
+    },
+    {
+      "matchPackageNames": ["eslint-plugin-unicorn"],
+      "allowedVersions": "<57"
+    },
+    {
+      "matchPackageNames": ["eslint-plugin-jsonc"],
+      "allowedVersions": "<3"
+    }
+  ]
 }
