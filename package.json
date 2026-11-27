@@ -20,7 +20,7 @@
     "@nuxt/eslint-config": "^1.17.0",
     "@unocss/eslint-config": "^66.13.0",
     "eslint": "^9.39.5",
-    "eslint-config-prettier": "^10.1.8",
+    "eslint-config-prettier": "^10.1.9",
     "eslint-gitignore": "^0.1.0",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsonc": "^2.21.1",
